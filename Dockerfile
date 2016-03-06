@@ -8,3 +8,7 @@ RUN apt-get -qq update
 RUN apt-get -qq install libreadline-dev
 
 RUN /install_go.sh
+
+ENV GOROOT /go
+ENV GOPATH /workspace
+ENV PATH /bin:/usr/bin:/go/bin:/workspace/bin
