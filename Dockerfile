@@ -11,5 +11,5 @@ RUN /install_go.sh
 
 ENV GOROOT /go
 ENV GOPATH /workspace
-ENV PATH /bin:/usr/bin:/go/bin:/workspace/bin
+ENV PATH /sbin:/usr/sbin:/bin:/usr/bin:/go/bin:/workspace/bin
 
